@@ -23,18 +23,25 @@
                         <h2 class="name">{{food.name}}</h2>                        
                         <p class="description">{{food.description}}</p>
                         <div class="sell-info">
-                         <span class="sellCount">月售{{food.sellCount}}份</span>
-                         <span class="rating">好评率{{food.rating}}</span>
-                      </div>
-                      <div class="price">
-                           <span class="newPrice">￥{{food.price}}</span>
-                      </div>
+                           <span class="sellCount">月售{{food.sellCount}}份</span>
+                           <span class="rating">好评率{{food.rating}}</span>
+                      
+                            <div class="price">
+                                 <span class="newPrice">￥{{food.price}}</span>
+                            </div>
+                            <div class="cartcontrol-wrapper">
+                                 <cartControl :food="food"></cartControl>
+                            </div>
+                        </div>
                       </div>
                   </li>
                </ul>
             </li>
          </ul>
+
+         
      </div> 
+
 
 <shopCar :deliveryPrice="datas.seller.deliveryPrice" :minPrice="datas.seller.minPrice"></shopCar>
 </div>
@@ -43,6 +50,7 @@
 import icon from '../../static/js/icon.js'
 import Scroll from 'better-scroll'
 import shopCar from './shopCar.vue'
+import cartControl from './cartControl.vue'
 export default{
 	props:['datas'],
     data(){
@@ -50,11 +58,10 @@ export default{
       icon: icon
      }
     },
-    mounted(){      
-    //  this.$nextTick(() => { })
-    },
     methods:{ 
     scroll(){   
+
+  
            /* eslint-disable no-new */
            //不要忘了这句注释的重要性
             new Scroll(this.$refs['foodsWarapper'],{click:true})
@@ -62,7 +69,8 @@ export default{
             }
     },
     components:{
-     shopCar
+     shopCar,
+     cartControl
 
     }   
 	
