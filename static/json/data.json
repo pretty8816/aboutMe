@@ -1,9 +1,9 @@
 {
   "seller": {
-    "name": "粥品香坊（回龙观）",
-    "description": "蜂鸟专送",
+    "name": "哩厘狸的时尚小铺",
+    "description": "哩厘狸专送",
     "deliveryTime": 38,
-    "score": 4.7,
+    "score": 4.1,
     "serviceScore": 4.1,
     "foodScore": 4.3,
     "rankRate": 69.2,
@@ -11,19 +11,19 @@
     "deliveryPrice": 4,
     "ratingCount": 24,
     "sellCount": 90,
-    "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
+    "bulletin": "哩厘狸的时尚小铺 已经为广大朋友提供了很多优质的 包包，衣服等原单外贸产品，并且会一直从事这个行业，希望大家多多支持它",
     "supports": [
       {
         "type": 0,
-        "description": "在线支付满28减5"
+        "description": "在线支付满"
       },
       {
         "type": 1,
-        "description": "VC无限橙果汁全场8折"
+        "description": "包包全场8折"
       },
       {
         "type": 2,
-        "description": "单人精彩套餐"
+        "description": "衣服套装"
       },
       {
         "type": 3,
@@ -31,7 +31,7 @@
       },
       {
         "type": 4,
-        "description": "已加入“外卖保”计划,食品安全保障"
+        "description": "已加入“运费保”计划"
       }
     ],
     "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",
@@ -43,9 +43,9 @@
     ],
     "infos": [
       "该商家支持发票,请下单写好发票抬头",
-      "品类:其他菜系,包子粥店",
-      "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
-      "营业时间:10:00-20:30"
+      "品类:服装",
+      "北京市朝阳区",
+      "营业时间:9:00-20:30"
     ]
   },
   "goods": [
@@ -54,19 +54,19 @@
       "type": -1,
       "foods": [
         {
-          "name": "皮蛋瘦肉粥",
+          "name": "杀手包",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "包包",
           "sellCount": 229,
           "rating": 100,
-          "info": "一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足",
+          "info": "包包是女生的最爱，这款包包作为热销款 已经得到广大女性朋友的青睐，大家不要错过跟随时尚的机会哟",
           "ratings": [
             {
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "很喜欢的粥",
+              "text": "很喜欢的包包",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -125,7 +125,7 @@
           "name": "葱花饼",
           "price": 10,
           "oldPrice": "",
-          "description": "",
+          "description": "正宗北京口味的葱花饼",
           "sellCount": 124,
           "rating": 85,
           "info": "",
